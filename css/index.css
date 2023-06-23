@@ -18,9 +18,6 @@ img{
 /* header */
 header{
   background-color: #fff;
-  position: fixed;
-  top: 0;left: 0;
-  z-index: 900;
 }
 header>h1{
   text-align: center;
@@ -40,6 +37,7 @@ header .btn{
 }
 /* nav */
 nav{
+  z-index: 900;
 }
 header>nav>ul{
   text-align: center;
