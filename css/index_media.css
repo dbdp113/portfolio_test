@@ -316,6 +316,52 @@
     transform: rotate(90deg);
   }
 
+  #modal{
+    padding:10vh 2vh 2vh;
+    box-sizing:border-box;
+    }
+  #modal>p.close{
+      position:absolute;
+      right:2vh; top:2vh;
+      width:6vh; height:6vh;}
+  #modal>section{
+        /*  그리드 시스템 바꾸기 */
+        width:100%;
+        height:100%;
+        padding:4vh 2vh 2vh;
+        position:static;
+        left:0; top:0;
+        margin:0px 0 0 0px;
+        color:#666697;}
+  #modal>section>h4{
+    line-height:4vh;
+    font-size:4vh;
+    margin-bottom:2vh;}
+  #modal>section>div{
+    display:block;
+  }
+  #modal>section figure{
+    width:100%;
+    height:34vh;
+    margin-bottom:2vh;
+    overflow:hidden;}  
+  #modal>section figure>img{
+    width:100%;
+  }   
+  #modal>section dl{
+    width:100%;
+    line-height:4vh;
+  }
+  #modal>section dl>dt{
+    width:40%;
+    padding-bottom:0;
+    margin-bottom:0;
+  }
+  #modal>section dl>dd{
+    width:60%;
+    padding-bottom:0;
+    border-bottom:1px solid #666697}
+
   /* contact */
   #contact>div#box05 {
     height: 900px;
